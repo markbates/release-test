@@ -24,7 +24,7 @@ changelog:
     - '^docs:'
     - '^test:'
 brew:
-   name: {{.ProjectName}}
+   name: "{{.ProjectName}}"
    install: |
      bin.install "{{.Binary}}"
    test: |
