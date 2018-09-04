@@ -29,11 +29,4 @@ changelog:
     exclude:
     - '^docs:'
     - '^test:'
-<%= if (opts.Brew) { %>
-brew:
-   name: "{{.ProjectName}}"
-   install: |
-     bin.install "{{.Binary}}"
-   # test: |
-   #   system "#{bin}/{{.Binary}} version"
-<% } %>
+
