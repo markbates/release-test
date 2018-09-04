@@ -29,6 +29,5 @@ brew:
    description: me testing releases
    install: |
      bin.install "release-test"
-     mv "#{bin}/release-test", "#{bin}/release-test"
    test: |
-     system "#{bin}/release-test", "version"
+     system "#{bin}/release-test"
