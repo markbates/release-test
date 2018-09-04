@@ -23,10 +23,15 @@ checksum:
   name_template: 'checksums.txt'
 snapshot:
   name_template: "{{ .Tag }}-next"
-  ---changelog:
+changelog:
   sort: asc
   filters:
     exclude:
     - '^docs:'
     - '^test:'
-
+brew:
+   name: "{{.ProjectName}}"
+   install: |
+     bin.install "{{.Binary}}"
+   # test: |
+   #   system "#{bin}/{{.Binary}} version"
