@@ -20,3 +20,15 @@ changelog:
     exclude:
     - '^docs:'
     - '^test:'
+brew:
+   name: release-test
+   github:
+     owner: markbates
+     name: homebrew-tap
+   homepage: https://gobuffalo.io
+   description: me testing releases
+   install: |
+     bin.install "release-test"
+     mv "#{bin}/release-test", "#{bin}/release-test"
+   test: |
+     system "#{bin}/release-test", "version"
