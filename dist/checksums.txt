@@ -1,4 +1,0 @@
-4c03b81e027f2c0f2462d0fbdd3d6efbb11fcf632e0e2981ffb455ccd438cfe7  release-test_1.0.0_Linux_i386.tar.gz
-3105bdb868209f51056db0f5b3df78b6c2f761357e4220ea6df5cec747960c75  release-test_1.0.0_Linux_x86_64.tar.gz
-d8bfb0bc96ed6c5dc43366d83d77bbf84a1d48a1d9be37a9282fa2f8bf9470e2  release-test_1.0.0_Darwin_x86_64.tar.gz
-33b8107423489478c7b879e14a553b3617d8f60edd2219024acad49fb5054c38  release-test_1.0.0_Darwin_i386.tar.gz
