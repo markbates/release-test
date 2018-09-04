@@ -1,4 +1,5 @@
 package main
 
-var version = "v1.0.9"
+var version = "v1.0.10-beta.1"
+
 
