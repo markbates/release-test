@@ -30,7 +30,6 @@ changelog:
 #    #   system "#{bin}/{{.Binary}} version"
 #
 brew:
-  name: "{{.ProjectName}}"
   github:
     owner: markbates
     name: homebrew-tap
