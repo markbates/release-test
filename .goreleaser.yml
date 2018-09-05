@@ -22,9 +22,19 @@ changelog:
     exclude:
     - '^docs:'
     - '^test:'
+# brew:
+#    name: "{{.ProjectName}}"
+#    install: |
+#      bin.install "{{.Binary}}"
+#    # test: |
+#    #   system "#{bin}/{{.Binary}} version"
+#
 brew:
-   name: "{{.ProjectName}}"
-   install: |
-     bin.install "{{.Binary}}"
-   # test: |
-   #   system "#{bin}/{{.Binary}} version"
+  name: "{{.ProjectName}}"
+  github:
+    owner: markbates
+    name: homebrew-tap
+  install: |
+    bin.install "{{.Binary}}"
+  test: |
+    system "#{bin}/{{.Binary}}", "-h"
